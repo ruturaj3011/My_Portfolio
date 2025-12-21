@@ -42,10 +42,11 @@
     <!-- navbar starts -->
     <nav
       id="navbar-top"
-      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+      class="navbar navbar-expand-lg navbar-light sticky-top"
+      style="background: rgba(15, 31, 46, 0.95); border-bottom: 2px solid #00ff88;"
     >
       <div class="container-fluid px-5">
-        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #00ff88"
           >Portfolio</a
         >
         <button
@@ -53,6 +54,7 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          style="color: #00ff88;"
         >
           <i class="bi bi-menu-button-fill"></i>
         </button>
@@ -90,7 +92,7 @@
     <section class="home pt-5 pb-5" id="home">
       <div class="row justify-content-evenly align-middle">
         <!-- here data-aos is used for adding aos animation  -->
-        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <div class="col-10 coe0e0e0 text-center text-md-start" data-aos="slide-right">
           <h2 style="color: #3f396d">
             Hello! I Am <br /><span class="c-orange">Ruturaj Patil</span>
           </h2>
@@ -105,14 +107,14 @@
           <a href="" class="link ms-4 d-none">See My Work</a>
         </div>
         <div class="col-10 col-md-4 d-none d-md-block">
-          <img src="images/banner-01.webp" class="img-fluid" alt="" />
+          <img src="images/data-science-hero.svg" class="img-fluid" alt="Data Science" style="filter: drop-shadow(0 0 20px rgba(0, 255, 136, 0.3));" />
         </div>
       </div>
     </section>
     <!-- home section ends here -->
 
     <!-- expertise section starts -->
-    <section class="expertise mt-5" id="service">
+    <section class="expertise mt-5" id="service" style="background: linear-gradient(135deg, #0f1f2e 0%, #1a2f42 100%); padding: 30px 0;">
       <div class="heading text-center">
         <small>My Expertise</small>
         <h3>
@@ -239,7 +241,7 @@
               <a
                 href="Fresher Data Scientist Resume.pdf"
                 download="SampleCV"
-                style="text-decoration: none;color: #fff;"
+                style="text-decoration: none;color: #00ff88;"
                 >Download CV</a
               >
             </button>
@@ -250,7 +252,7 @@
     <!-- skill section end here -->
 
     <!-- portfolio section starts here -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio" style="background: linear-gradient(135deg, #0f1f2e 0%, #1a2f42 100%); padding-top: 30px;">
       <div class="heading text-center pt-5">
         <small>Creative Work</small>
         <h3>Check My Portfolio</h3>
@@ -360,7 +362,7 @@
     <!-- portfolio section ends here -->
 
     <!-- testimonial section starts  -->
-    <section class="testimonial mt-5 pt-5" id="testimonial">
+    <section class="testimonial mt-5 pt-5" id="testimonial" style="background: linear-gradient(135deg, #0f1f2e 0%, #1a2f42 100%); padding: 40px 0;">
       <div class="row justify-content-evenly">
         <div class="col-md-4 col-10" data-aos="slide-right">
           <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
@@ -466,13 +468,12 @@
             />
             <div class="card-body px-4">
               <small>By Ruturaj Patil</small
-              ><span class="ms-3">Mar 8,2022</span>
+              ><span class="ms-3">Dec 22, 2025</span>
               <h4 class="card-title">
-                <a href="">Quis autem vea eum iure reprehenderit</a>
+                <a href="">Getting Started with Machine Learning in Python</a>
               </h4>
               <p class="text-muted">
-                Dolor repellendus temporibus autem quibusdam officiis debitis
-                rerum nece aibus minima veniam.
+                Explore the fundamentals of machine learning using Python. Learn about supervised and unsupervised learning algorithms, data preprocessing, and model evaluation techniques for building effective predictive models.
               </p>
               <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
             </div>
@@ -487,13 +488,12 @@
             />
             <div class="card-body px-4">
               <small>By Ruturaj Patil</small
-              ><span class="ms-3">Mar 8,2022</span>
+              ><span class="ms-3">Dec 20, 2025</span>
               <h4 class="card-title">
-                <a href="">Quis autem vea eum iure reprehenderit</a>
+                <a href="">Data Cleaning: Essential Skills for Data Scientists</a>
               </h4>
               <p class="text-muted">
-                Dolor repellendus temporibus autem quibusdam officiis debitis
-                rerum nece aibus minima veniam.
+                Master the art of data cleaning and preprocessing. Discover practical techniques for handling missing values, outliers, and feature engineering to improve your machine learning model performance.
               </p>
               <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
             </div>
@@ -508,13 +508,12 @@
             />
             <div class="card-body px-4">
               <small>By Ruturaj Patil</small
-              ><span class="ms-3">Mar 8,2022</span>
+              ><span class="ms-3">Dec 18, 2025</span>
               <h4 class="card-title">
-                <a href="">Quis autem vea eum iure reprehenderit</a>
+                <a href="">Advanced SQL Techniques for Data Analysis</a>
               </h4>
               <p class="text-muted">
-                Dolor repellendus temporibus autem quibusdam officiis debitis
-                rerum nece aibus minima veniam.
+                Deep dive into advanced SQL queries for data extraction and analysis. Learn window functions, CTEs, and optimization techniques to efficiently analyze large datasets and derive business insights.
               </p>
               <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
             </div>
@@ -523,7 +522,7 @@
         <!-- here we will make modals if Read more link is clicked the modal will popup -->
         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="background: #1a2f42; border: 2px solid #00ff88;">
               
                 <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
               
@@ -533,8 +532,8 @@
                 </div>
                 <div class="content mt-3">
                   <small>By Ruturaj Patil</small
-                    ><span class="text-muted ms-2">Mar 8,2022</span>
-                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                    ><span class="text-muted ms-2">Dec 22, 2025</span>
+                  <h4 class="card-title mt-3">Getting Started with Machine Learning in Python</h4>
                   <div class="social-links mt-4">
                       <button href="" class="rounded-pill dribble">
                         <i class="bi bi-dribbble"></i>
@@ -546,7 +545,17 @@
                         <i class="bi bi-behance"></i>
                       </button>
                   </div>
-                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                  <p class="text-muted mt-3"><strong>Introduction to Machine Learning</strong><br>
+                  Machine Learning is transforming how we solve complex problems. In this comprehensive guide, we'll explore the fundamental concepts and practical implementations using Python.<br><br>
+                  <strong>Key Topics Covered:</strong>
+                  <ul style="color: #b0b0b0;">
+                    <li>Supervised vs Unsupervised Learning</li>
+                    <li>Popular ML Libraries: Scikit-learn, TensorFlow, Pandas</li>
+                    <li>Data Preprocessing and Feature Engineering</li>
+                    <li>Model Selection and Evaluation Metrics</li>
+                    <li>Cross-validation and Hyperparameter Tuning</li>
+                  </ul>
+                  Start your ML journey today by mastering these essential concepts!</p>
                 </div>
               </div>
               <div class="heading px-2">
@@ -605,8 +614,8 @@
                 </div>
                 <div class="content mt-3">
                   <small>By Ruturaj Patil</small
-                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
-                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                    ><span class="text-muted ms-2 ms-md-0">Dec 20, 2025</span>
+                  <h4 class="card-title mt-3">Data Cleaning: Essential Skills for Data Scientists</h4>
                   <div class="social-links mt-4">
                       <button href="" class="rounded-pill dribble">
                         <i class="bi bi-dribbble"></i>
@@ -618,7 +627,18 @@
                         <i class="bi bi-behance"></i>
                       </button>
                   </div>
-                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                  <p class="text-muted mt-3"><strong>The Art and Science of Data Cleaning</strong><br>
+                  Data cleaning is often called the "unglamorous" part of data science, yet it's crucial for model success. Learn proven techniques and best practices for preparing your data effectively.<br><br>
+                  <strong>Topics Covered:</strong>
+                  <ul style="color: #b0b0b0;">
+                    <li>Handling Missing Values: Imputation Strategies</li>
+                    <li>Detecting and Managing Outliers</li>
+                    <li>Feature Engineering and Selection</li>
+                    <li>Data Normalization and Scaling</li>
+                    <li>Dealing with Categorical Variables</li>
+                    <li>Real-world Case Studies and Best Practices</li>
+                  </ul>
+                  Master these essential skills to dramatically improve your ML model performance!</p>
                 </div>
               </div>
               <div class="heading px-2">
@@ -677,8 +697,8 @@
                 </div>
                 <div class="content mt-3">
                   <small>By Ruturaj Patil</small
-                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
-                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                    ><span class="text-muted ms-2 ms-md-0">Dec 18, 2025</span>
+                  <h4 class="card-title mt-3">Advanced SQL Techniques for Data Analysis</h4>
                   <div class="social-links mt-4">
                       <button href="" class="rounded-pill dribble">
                         <i class="bi bi-dribbble"></i>
@@ -690,7 +710,18 @@
                         <i class="bi bi-behance"></i>
                       </button>
                   </div>
-                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                  <p class="text-muted mt-3"><strong>Mastering Advanced SQL for Data Science</strong><br>
+                  SQL is a fundamental skill for data scientists. Move beyond basic queries and learn advanced techniques that will make you a data analysis powerhouse.<br><br>
+                  <strong>Advanced Topics Included:</strong>
+                  <ul style="color: #b0b0b0;">
+                    <li>Window Functions and Ranking</li>
+                    <li>Common Table Expressions (CTEs)</li>
+                    <li>Complex Joins and Subqueries</li>
+                    <li>Query Optimization and Performance Tuning</li>
+                    <li>Working with Large Datasets Efficiently</li>
+                    <li>Real-world Analytics Scenarios</li>
+                  </ul>
+                  Unlock the true power of SQL to extract insights from your data faster and more efficiently!</p>
                 </div>
               </div>
               <div class="heading px-2">
@@ -742,7 +773,7 @@
     <!-- blog section ends here -->
 
     <!-- contact section starts -->
-    <section class="contact py-5" id="contact">
+    <section class="contact mt-5 py-5" id="contact" style="background: linear-gradient(135deg, #0a1520 0%, #0f1f2e 100%);">
       <div class="heading text-center">
         <small>Get in Touch</small>
         <h3>Any Questions? Feel Free to Contact</h3>
@@ -754,7 +785,7 @@
               <i class="bi bi-geo-alt-fill"></i>
             </div>
             <div class="col-11">
-              <p>121 King Street Melbourne, 3000, Australia</p>
+              <p>Pune Maharashtra</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -762,7 +793,7 @@
               <i class="bi bi-telephone-fill"></i>
             </div>
             <div class="col-11">
-              <p>+91 9527818693</p>
+              <p>+91 7769035751</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -770,7 +801,7 @@
               <i class="bi bi-send-fill"></i>
             </div>
             <div class="col-11">
-              <p>codewithpawan@gmail.com</p>
+              <p>RuturajPatil3007@gmail.com</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -778,7 +809,7 @@
               <i class="bi bi-globe-americas"></i>
             </div>
             <div class="col-11">
-              <p>codingpawan.com</p>
+              <p>Ruturaj.com</p>
             </div>
           </div>
         </div>

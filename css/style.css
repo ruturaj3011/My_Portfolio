@@ -117,9 +117,6 @@ html {
     position: relative;
     z-index: 1;
 }
-    position: relative;
-    z-index: 1;
-}
 .c-orange{
     color: #00ff88;
     font-weight: 700;
@@ -351,7 +348,7 @@ html {
 }
 
 .heading p{
-    font-sizb0b0b01.3rem;
+    font-size: 1.3rem;
     color: #666;
     animation: fadeIn 0.8s ease-out 0.3s both;
     line-height: 1.8;
@@ -485,7 +482,6 @@ html {
 }
 .modal-body .content span{
     font-size: 1rem;
-}0f1f2e;
 }
 .contact-details i{
     font-size: 1.5rem;
